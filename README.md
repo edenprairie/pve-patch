@@ -46,3 +46,10 @@ cp -f /usr/share/pve-manager/images/proxmox_logo.png~ \
 ```
 vagrant up
 ```
+
+## Next update packages and system and reboot PVE.
+```
+apt-get update && apt-get upgrade -y
+apt-get dist-upgrade
+reboot
+```
